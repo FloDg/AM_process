@@ -1,5 +1,7 @@
 # AM_process
-Temperature Field Prediction
+Machine learning-based approach for temperature field prediction during the additive manufacturing process. Our approach combines a variational autoencoder (VAE) that models the process in space with a recurrent neural network (RNN) that models the process in time inside a reduced latent space. A description of our VAE-RNN approach is available [here](ARIAC_GD1_2D_grid_material_addition.pdf). 
+
+We provide code for training the VAE and RNN models, and for vizualizing the predictions of the trained models.
 
 # Dataset
 
