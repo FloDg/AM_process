@@ -452,7 +452,7 @@ if __name__ == '__main__':
     num_temperatures = 0
 
     with torch.no_grad():
-        for batch_features, batch_grids, batch_heights in valid_set:
+        for batch_features, batch_grids, batch_heights in test_set:
 
             # Move to device
             batch_features = batch_features.to(device)
